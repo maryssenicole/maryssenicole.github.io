@@ -18,7 +18,7 @@
 /* SHADOWS */
 /* Shadows (from mdl http://www.getmdl.io/) */
 body {
-  background-color: #CCCCCC;
+  background-color: #ffffff;
 }
 body.inverse {
   background: #333333;
@@ -1890,9 +1890,9 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
   padding: 15px 0;
 }
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
-  background-color: #9c27b0;
+  background-color: #f0bbb5;
   color: #FFFFFF;
-  box-shadow: 0 16px 26px -10px rgba(156, 39, 176, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+  box-shadow: 0 16px 26px -10px rgb(239, 175, 168), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
 }
 .nav-pills.nav-pills-info > li.active > a, .nav-pills.nav-pills-info > li.active > a:focus, .nav-pills.nav-pills-info > li.active > a:hover {
   background-color: #03a9f4;
@@ -2110,7 +2110,7 @@ legend {
   line-height: 1.42857;
 }
 .navbar, .navbar.navbar-default {
-  background-color: #9c27b0;
+  background-color: #404040;
   color: #ffffff;
 }
 .navbar .navbar-form .form-group input.form-control::-moz-placeholder,
@@ -2326,8 +2326,8 @@ legend {
   background-color: #3f51b5;
 }
 .navbar.navbar-transparent {
-  background-color: transparent;
-  box-shadow: none;
+  background-color: #eaccc3;
+  box-shadow: 1px 2px 4px #0000001c;
   color: #fff;
   padding-top: 25px;
 }
@@ -3552,7 +3552,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .main-raised {
   margin: -60px 30px 0px;
-  border-radius: 6px;
+  border-radius: 4px;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
@@ -3581,7 +3581,7 @@ h2.title {
   left: 0;
   top: 0;
   content: "";
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.0);
 }
 .header-filter .container {
   z-index: 2;
@@ -3669,8 +3669,8 @@ h2.title {
 }
 
 .profile-page .header {
-  height: 380px;
-  background-position: top center;
+  height: 460px;
+  background-position: center center;
 }
 .profile-page .profile {
   text-align: center;
@@ -3710,7 +3710,7 @@ h2.title {
 .profile-page .navbar-transparent,
 .signup-page .navbar-transparent,
 .index-page .navbar-transparent {
-  padding-top: 25px;
+  padding-top: 10px;
 }
 
 @media (max-width: 991px) {
@@ -3744,3 +3744,27 @@ h2.title {
 }
 
 /*# sourceMappingURL=material-kit.css.map */
+
+
+/*Additional*/
+hr.span-divider {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: 0px;
+}
+
+span.label.label-default.span-1 {
+    background-color: #eabdb2;
+}
+
+span.label.label-default.span-2 {
+    background-color: #d0c0af;
+}
+
+span.label.label-default.span-3 {
+    background-color: #676767;
+}
+
+span.label.label-default.span-4 {
+    background-color: #999999;
+}

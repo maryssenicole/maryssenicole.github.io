@@ -199,6 +199,6 @@ button.btn.btn-contact {
     color: #404040 !important;
 }
 
-a, a:hover, a:focus {
-    color: #eabdb2;
+ a:hover, a:focus {
+    color: #eabdb2 !important;
 }

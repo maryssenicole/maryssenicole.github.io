@@ -27,17 +27,22 @@
 }
 
 .profile-page .profile {
-    text-align: left;
+    text-align: center;
 }
 
 p.profile-about {
-    text-align: left;
+    text-align: center;
+    color: #404040;
+}
+
+.name {
+    text-align: center;
 }
 
 .profile-page .description {
     margin: 30px auto 0;
     max-width: 600px;
-    text-align: left;
+    text-align: center;
 }
 
 span.icon-head {
@@ -75,6 +80,10 @@ h3.about-main-head {
     padding: 6px 17px;
     text-transform: uppercase;
     font-size: 11px;
+}
+
+p.outside-work {
+    font-style: italic;
 }
 
 /*work*/
@@ -188,4 +197,8 @@ button.btn.btn-contact {
 .form-group.label-static label.control-label, .form-group.label-floating.is-focused label.control-label, .form-group.label-floating:not(.is-empty) label.control-label
 {
     color: #404040 !important;
+}
+
+a, a:hover, a:focus {
+    color: #eabdb2;
 }
